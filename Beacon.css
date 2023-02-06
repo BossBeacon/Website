@@ -1,1 +1,45 @@
-.Beacon{width: 300px;background-color: whitesmoke;} 
+* {
+  box-sizing: border-box;
+  transition: all 0.3s ease-in;
+}
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to top right, red, white);
+  background-repeat: no-repeat;
+}
+label{
+    display: block;
+}
+.Beacon {
+  width: 30%;
+  background-color: whitesmoke;
+  padding: 1rem 0.5rem;
+}
+input[type="text"],
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  /* height: 50px; */
+}
+input[type="submit"] {
+  background-color: rgb(11, 12, 12);
+  color: white;
+  margin: top right bottom left;
+  margin: 10px 0 10px 0px;
+  border: none;
+  /* Making the corners round */
+  border-radius: 45px;
+  /* Changing the Text to upper case */
+  text-transform: uppercase;
+  /* Putting space between letters */
+  letter-spacing: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover{
+transform: scale(1.08);
+background: crimson;
+}
